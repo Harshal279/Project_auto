@@ -7,7 +7,7 @@
 #         final_output: str
 
 from typing import TypedDict
-class Agentstate(TypedDict):
+class AgentState(TypedDict):
         user_input: str
         plan: str
         messages : list
